@@ -942,6 +942,12 @@ type XfmrSubscOutParams struct {
   isVirtualTbl bool                 // to specify if the DB tale is present or not
 }
 
+// to map the DB number, table, key, and its field names to the mapped path
+type RedisDbSubscribeMap = map[db.DBNum]map[string]map[string]map[string]string
+
+// to map DB number, table, key, field or processOnchange callback function to the leaf/leaf-list node of the path
+type RedisDbYgNodeMap = map[db.DBNum]map[string]map[string]interface{}
+
 // notificationOpts to define sample interval time and notification preference type
 type notificationOpts struct {
   mInterval int              // sample subscription interval time
