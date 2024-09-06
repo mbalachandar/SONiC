@@ -82,15 +82,15 @@
 "202106": {
 "sonic-broadcom.bin": {
   "url": "",
-  "build-url": "https://dev.azure.com/mssonic/build/_build/results?buildId=null&view=results",
-  "build": "null",
-  "date": ""
+  "build-url": "https://dev.azure.com/mssonic/build/_build/results?buildId=&view=results",
+  "build": "",
+  "date": "null"
  },
 "sonic-aboot-broadcom.swi": {
   "url": "",
-  "build-url": "https://dev.azure.com/mssonic/build/_build/results?buildId=null&view=results",
-  "build": "null",
-  "date": ""
+  "build-url": "https://dev.azure.com/mssonic/build/_build/results?buildId=&view=results",
+  "build": "",
+  "date": "null"
  },
 "sonic-mellanox.bin": {
   "url": "",
